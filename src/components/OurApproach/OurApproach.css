@@ -1,0 +1,279 @@
+.ourapproach{
+    display: flex;
+    background-color: white;
+    height: 130vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ourapproach-red{
+    text-align: center;
+}
+
+.ourapproach-red h3{
+    text-align: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FE523A ;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 120px;
+}
+
+.main-head{
+    text-align:center;
+}
+
+.main-head h1{
+    font-family: Arvo;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 46px;
+    line-height: 55.2px;
+    color: #303030;
+    margin-top: 180px;
+    width: 680px;
+    height: 110px;
+    margin-left: -530px;
+}
+
+.sub-head{
+    text-align: center;
+}
+
+.sub-head h3{
+    width: 511px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 27px;
+    color: #414141;
+    margin-left: -590px;
+    margin-top: 330px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card-1{
+    background-color: #FFEBEB;
+    width: 389.05px;
+    height: 335.2px;
+    margin-top: 500px;
+    margin-left: -1050px;
+    position: relative;
+}
+
+.card-title1 h1{
+    color: #FE523A;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.card-subtitle1 h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.58px;
+    color: #303030;
+    text-align: start;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.card-desc1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    width: 310px;
+    margin-left: 40px;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.card-2{
+    background-color: #F6FFEB;
+    width: 389.05px;
+    height: 335.2px;
+    margin-top: 500px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.card-title2 h1{
+    color: #FE523A;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.card-subtitle2 h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.58px;
+    color: #303030;
+    text-align: start;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.card-desc2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    width: 310px;
+    margin-left: 40px;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.consultation-btn2 button{
+    width: 327px;
+    height: 52px;
+    border-radius: 3px;
+    margin-top: 780px;
+    margin-left: -350px;
+    z-index: 0;
+    background-color: #1E1E1E;
+    cursor: pointer;
+    border: none;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.76px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.consult-btn2{
+    z-index: 0;
+}
+
+.card-3{
+    background-color: #EBF2FF;
+    width: 389.05px;
+    height: 335.2px;
+    margin-top: 500px;
+    margin-left: 100px;
+    position: relative;
+
+}
+
+.card-title3 h1{
+    color: #FE523A;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.card-subtitle3 h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.58px;
+    color: #303030;
+    text-align: start;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.card-desc3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
+    width: 310px;
+    margin-left: 40px;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.consultation-btn3 button{
+    width: 327px;
+    height: 52px;
+    border-radius: 3px;
+    margin-top: 780px;
+    margin-left: -350px;
+    z-index: 0;
+    background-color: #1E1E1E;
+    cursor: pointer;
+    border: none;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.76px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+.consult-btn3{
+    z-index: 0;
+}
+
+.consultation-btn1 button{
+    width: 327px;
+    height: 52px;
+    border-radius: 3px;
+    margin-top: 780px;
+    z-index: 0;
+    margin-left: -360px;
+    background-color: #1E1E1E;
+    cursor: pointer;
+    border: none;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.76px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.consult-btn1{
+    z-index: 0;
+}
+  
+.card-1:hover {
+    transform: translateY(-80px);
+    transition: 0.3s linear;
+}
+
+.card-2:hover {
+    transform: translateY(-80px);
+    transition: 0.3s ease-in-out;
+}
+
+.card-3:hover {
+    transform: translateY(-80px);
+    transition: 0.3s ease-in-out;
+}
+
+  

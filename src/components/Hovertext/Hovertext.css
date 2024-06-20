@@ -1,0 +1,134 @@
+.hover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust height as needed */
+    background-color: rgba(229, 246, 255,1); /* Background color for the container */
+    position: relative;
+    margin-top: -860px;
+    height: 700px;
+    width: 1524px;
+    margin-left: -13px;
+    box-sizing: border-box;
+  }
+  
+  .hover-space {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: flex;
+    justify-content: flex-start; /* Align children to the start (left) */
+    align-items: center;
+    overflow: hidden; /* Hide overflowing text */
+    position: relative;
+  }
+  
+  .hover-text-left {
+    position: absolute;
+    left: -300%; /* Start off-screen */
+    /* white-space: nowrap; */
+    transition: left 1.5s ease-out ;
+    font-weight: 700;
+    font-family: Arvo;
+    font-style: italic;
+    font-size: 131.61px;
+    line-height: 140px;
+    margin-right: 20px;
+    margin-top: 160px;
+  }
+  
+  .hover-text-bottom {
+    position: absolute;
+    bottom: -500%;
+    white-space: nowrap;
+    transition: bottom 1s ease;
+    font-weight: 700;
+    font-family: Arvo;
+    font-style: italic;
+    font-size: 131.61px;
+    line-height: 162.52px;
+    /* border: 1px solid; */
+    margin-bottom: 370px;
+    margin-left: 60px;
+  }
+  
+  .hover-space:hover .hover-text-left {
+    left: 31%;
+    width: 800px;
+  }
+  
+  .hover-space:hover .hover-text-bottom {
+    bottom: 10%;
+    
+  }
+  
+
+.line-img{
+  margin-right: 500px;
+  position: absolute;
+  margin-left: -150px;
+}
+
+.layer{
+  background-color:rgba(229, 246, 255,1);
+  width: 430px;
+  position: absolute;
+  height: 440px;
+  margin-top: 260px;
+  margin-left: -1086px;
+}
+
+.vector18 {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.hover-container:hover .vector18 {
+  opacity: 1;
+}
+
+.layer2{
+  margin-right: 30px;
+  margin-bottom: 290px;
+}
+
+.vector2 {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  margin-left: -360px;
+  margin-top: -90px;
+}
+
+.hover-container:hover .vector2 {
+  opacity: 1;
+}
+
+.red-text{
+  color: #FE523A ;
+}
+
+.certifiedsolution{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.certifiedsolution p{
+  margin-top: -220px;
+  width: 400px;
+  position: absolute;
+  margin-left: -1050px;
+
+}
+
+.hover-container:hover .certifiedsolution {
+  opacity: 1;
+}
+
+

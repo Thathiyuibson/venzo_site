@@ -1,0 +1,53 @@
+.whatyouget{
+    display: flex;
+    /* border: 1px solid; */
+    height: 884.65px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.secondary-div{
+    /* border: 1px solid blue; */
+    width: 1366px;
+    height: 800.78px;
+    margin-left: 60px;
+    margin-top: 40px;
+    overflow: hidden;
+    position: absolute;
+    transition: transform 0.5s ease;
+}
+
+.whatyouget-head {
+    position: absolute;
+    left: -100%; /* Start off-screen */
+    top: 30%;
+    transform: translateY(-50%);
+    transition: left 1s ease; /* Smooth transition */
+}
+
+
+.whatyouget-head h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 102px;
+    line-height: 106px;
+    color: #262261;
+    width: 500px;
+}
+
+.whatyouget:hover .whatyouget-head {
+    left: 5%;
+}
+
+.whatyouget-vector img {
+    width: 253.52px;
+    height: 345.31px;
+    border: 5px;
+    margin-left: 220px;
+    margin-top: 380px;
+}
+
+.whatyouget:hover .secondary-div {
+    transform: translateY(-80px); /* Move upwards on hover */
+}

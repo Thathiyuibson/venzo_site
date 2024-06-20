@@ -1,0 +1,60 @@
+.announcement{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5px;
+}
+
+
+
+.announcement1{
+    /* border: 1px solid; */
+    width: 730px;
+    margin-left: 380px;
+    margin-top: 200px;
+}
+
+.announcement2{
+    /* border: 1px solid; */
+    width: 430px;
+    margin-top: 10px;
+    margin-left: 535px;
+}
+
+.gs-btn button{
+    margin-left: 700px;
+    margin-top: 20px;
+    width: 127px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.get-started{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 19.76px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    border: none;
+
+}
+
+.oval-img{
+    margin-left: 30px;
+    margin-top: -220px;
+}
+
+
+.blue-bg{
+    margin-top: -675px;
+}
+
+.blue-bg img{
+    width: 100%;
+}
+

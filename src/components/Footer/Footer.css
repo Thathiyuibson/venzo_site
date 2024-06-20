@@ -1,0 +1,111 @@
+.footer{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid red;
+}
+
+.bg-img{
+    margin-top: 50px;
+    margin-left: -615px;
+    box-sizing: border-box;
+}
+
+.bg-img img{
+    width: 101%;
+    display: block;
+}
+.div1{
+    margin-left: 10px;
+}
+
+.div1 img{
+    /* position: relative; */
+    margin-left: 630px;
+    margin-top: 75px;
+    z-index: 10;
+    position: absolute;
+}
+
+.venzopng {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 82.17px;
+    height: 69.97px;
+    top: 140%;
+    left: -36%;
+  }
+
+  .venodesc {
+    top: 375%; 
+    left: -20%; 
+    transform: translate(-50%, -40%);
+    width: 526.6px;
+    height: 72px;
+  }
+  .venzopng, .venodesc {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .div2{
+    z-index: 10;
+    margin-left: 375px;
+    margin-top: 37px;
+    position: absolute;
+  }
+
+  .home{
+    margin-top: 135px;
+    margin-left: 400px;
+    width: 183px;
+    height: 192px;
+  }
+
+  .quicklinks{
+    width: 101px;
+    height: 24px;
+    margin-left: -185px;
+    margin-bottom: 230px;
+    cursor: pointer;
+  }
+
+  .div3{
+    z-index: 10;
+    margin-left: 575px;
+    margin-top: 37px;
+    position: absolute;
+  }
+
+  .socialmedia{
+    margin-left: 610px;
+    margin-top: 130px;
+    width: 76px;
+    height: 128px;
+    cursor: pointer;
+  }
+
+  .mediaheading{
+    margin-left: -76px;
+    margin-bottom: 170px;
+  }
+
+  .copyright{
+    position: absolute;
+    z-index: 10;
+  }
+
+  .copyrights {
+    position: absolute;
+    bottom: -790%;
+    left: 16.5%;
+    transform: translate(-50%, 0);
+}
+
+.terms {
+    position: absolute;
+    bottom: -790%;
+    left: 88%;
+    transform: translate(-50%, 0);
+}

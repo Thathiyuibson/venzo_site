@@ -1,0 +1,172 @@
+.EveryIndustry{
+    background-color: #02001D ;
+    margin-top: 170px;
+    height: 130vh;
+    width: 1530px;
+    box-sizing: border-box;
+    margin-left: -20px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+        
+}
+
+.everyindustry-head{
+    position: relative;
+    text-align: center;
+    color: #FAFAFA;
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    width: 1200px;
+    align-items: center;
+    margin-left: 260px;
+    margin-top: 80px;
+    height: 20px;
+}
+
+.highlight{
+    color: #FE523A;
+}
+
+.group167{
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 198.22px;
+    border-radius: 8px;
+    margin-top: 400px;
+    margin-left: -875px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.group167 h1{
+    width: 490px;
+    font-family: Arvo;
+    color: #000000;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    margin-left: -130px;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 30px;
+    margin-left: -3px;
+}
+
+.cs{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 70%;
+}
+
+.ca{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 70%;
+}
+
+.cr{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 70%;
+}
+
+.certified{
+    margin-top: 630px;
+    width: 1110px;
+    margin-left: -748px;
+    color: #FAFAFA;
+    font-family: Inter;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.thanioruvan{
+    font-weight: 400;
+}
+
+.orange-wheel img{
+    width: 188.65px;
+    height: 188.65px;
+    margin-top: 500px;
+    margin-right: 60px;
+    animation: rotate 30s linear infinite;
+    overflow: hidden;
+}
+
+.orange-wheel{
+    margin-left: -250px;
+    margin-right: 226px;
+}
+
+.companies-worked{
+    margin-top: 180px;
+}
+
+.companies-worked img{
+    width: 2800px;
+    margin-left: -1800px;
+    margin-top: 50px;
+}
+
+.ltr{
+    position: absolute;
+    top: 14%;
+    z-index: 0; /* Ensure these are behind the text */
+  }
+.rtl{
+    position: absolute;
+    top: 22%;
+    z-index: 0; /* Ensure these are behind the text */
+  }
+
+.ltr {
+    animation: moveLTR 31s linear infinite;
+  }
+  
+  .rtl {
+    animation: moveRTL 31s linear infinite;
+  }
+
+@keyframes moveLTR {
+    0% {
+      left: -100px; /* Start position off the screen */
+    }
+    100% {
+      left: 100%; /* End position off the other side */
+    }
+  }
+  
+  @keyframes moveRTL {
+    0% {
+      right: -400px; /* Start position off the screen */
+    }
+    100% {
+      right: 100%; /* End position off the other side */
+    }
+  }
+
+  .dotted-line {
+    width: 100%;
+    border-top: 2px dashed #9F9F9F; /* Dotted border */
+    margin-top: 900px; /* Space from the previous element */
+    margin-left: -1380px;
+    margin-right: 140px;
+  }
+
+
+  .vector-36{
+    margin-left: -1330px;
+    margin-top: 380px;
+    width: 90.57px;
+    height: 146.96px;
+    border: 3px;
+  }
+

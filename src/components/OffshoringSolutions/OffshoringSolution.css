@@ -1,0 +1,21 @@
+.body,html{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.offshoring-solutions{
+    width: 100.5%;
+    background-color:#F4F2EA;
+    height: 615.94px;
+    margin-top: 70px;
+}
+
+.offshore-title h1{
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62.4px;
+    text-align: center;
+}

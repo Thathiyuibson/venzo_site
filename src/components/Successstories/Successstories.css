@@ -1,0 +1,137 @@
+.successstories {
+  display: flex;
+  position: relative;
+}
+
+.img-layout {
+  margin-left: -10px;
+  object-fit: cover;
+}
+
+.img-layout img {
+  object-fit: cover;
+  margin-top: 2px;
+  width: 1520px;
+}
+
+.hover-text1, .hover-text2, .hover-text3 {
+  position: absolute;
+  left: -100%;
+  font-size: 119px;
+  line-height: 146.95px;
+  font-family: Arvo;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: left 1s ease, color 1s ease;
+}
+
+.hover-text1 {
+  color: #1C9EDC;
+  margin-top: 40px;
+}
+
+.successstories:hover .hover-text1 {
+  left: 7%;
+  color: #1C9EDC;
+}
+
+.hover-text2 {
+  color: #FE523A;
+  margin-top: 40px;
+}
+
+.successstories:hover .hover-text2 {
+  left: 60%;
+  color: #FE523A;
+}
+
+.hover-text3 {
+  color: #262261;
+  margin-top: 280px;
+  position: absolute;
+}
+
+.successstories:hover .hover-text3 {
+  left: 30%;
+  color: #262261;
+}
+
+.Rectangle122 img {
+  margin-top: -820px;
+  width: 724.02px;
+  height: 280.36px;
+  margin-left: 600px;
+  margin-bottom: 360px;
+}
+
+.group-73 {
+  margin-left: -170px;
+  margin-top: 330px;
+  width: 71.4px;
+  height: 71.4px;
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.successstories:hover .group-73 {
+  opacity: 1;
+}
+
+/* Keyframes to show alt images one by one */
+@keyframes showAltImages {
+  0%, 20% { opacity: 1; }
+  25%, 100% { opacity: 0; }
+}
+
+.showAltImages {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.showAltImages .alt-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.showAltImages .alt-img1 {
+  opacity: 1;
+  margin-left: -1223px;
+  margin-top: 303px;
+}
+.showAltImages .alt-img2 {
+  opacity: 0;
+  margin-top: -115px;
+  margin-left: -1223px;
+}
+.showAltImages .alt-img3 {
+  opacity: 0;
+  margin-top: -112px;
+  margin-left: -1223px;
+}
+.showAltImages .alt-img4 {
+  opacity: 0;
+  margin-top: -112px;
+  margin-left: -1223px;
+
+}
+
+.successstories:hover .showAltImages .alt-img1 {
+  animation: showAltImages 8s infinite;
+}
+
+.successstories:hover .showAltImages .alt-img2 {
+  animation: showAltImages 8s infinite 2s;
+}
+
+.successstories:hover .showAltImages .alt-img3 {
+  animation: showAltImages 8s infinite 4s;
+}
+
+.successstories:hover .showAltImages .alt-img4 {
+  animation: showAltImages 8s infinite 6s;
+}

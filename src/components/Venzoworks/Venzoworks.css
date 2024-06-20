@@ -1,0 +1,32 @@
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .venzoworks {
+    height: 135vh; /* Full viewport height */
+    position: relative;
+    background-color: rgba(229, 246, 255,1);
+    overflow: hidden;
+    width: 1521px;
+    margin-left: -10px;
+    margin-top: -120px;
+  }
+
+  .orange{
+    overflow: hidden;
+    margin-left: 1300px;
+    margin-top: 0px;
+  }
+  
+  .orange img {
+    /* position: fixed; */
+    top: 10px;
+    right: -150px;
+    animation: rotate 30s linear infinite;
+  }
