@@ -14,7 +14,7 @@ import WhatYouGet from '../../components/WhatYouGet/WhatYouGet'
 
 const Landingpage = () => {
   return (
-    <div>
+    <div className='landing'>
       <Navbar/>
       <Announcement/>
       <HoverText/>

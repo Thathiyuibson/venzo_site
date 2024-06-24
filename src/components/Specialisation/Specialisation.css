@@ -1,0 +1,39 @@
+.body,html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.specialisation{
+    width: 100%;
+    background-color: white;
+    height: 70vh;
+}
+
+.specialisation img{
+    margin-left: 150px;
+}
+
+.specialisation h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47.4px;
+    text-align: center;
+    color: black;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+
+.specialisation p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20.28px;
+    line-height: 30.42px;
+    text-align: center;
+    color: #334155;
+    width: 600px;
+    margin-left: 450px;
+}

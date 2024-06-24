@@ -8,8 +8,17 @@
 .offshoring-solutions{
     width: 100.5%;
     background-color:#F4F2EA;
-    height: 615.94px;
+    height: 640.94px;
     margin-top: 70px;
+    position: relative;
+    margin-bottom: 550px;
+}
+
+.offshore-title{
+    position: absolute;
+    margin-top: 40px;
+    align-content: center;
+    margin-left: 300px;
 }
 
 .offshore-title h1{
@@ -18,4 +27,100 @@
     font-size: 52px;
     line-height: 62.4px;
     text-align: center;
+    color: #414141;
 }
+
+.bold-txt{
+    font-weight: 700;
+}
+
+.offshore-sub h3{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #414141;
+}
+
+.offshore-sub{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.solution-btn{
+    background-color: #1E1E1E;
+    width: 308px;
+    height: 60px;
+    padding: 20px, 40px, 20px, 40px;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 300px;
+    margin-left: 600px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.solution-btn{
+    cursor: pointer;
+}
+
+.businessanalyst{
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 100px;
+}
+.businessconsultant{
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 450px;
+}
+.developers{
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 800px;
+}
+.designers{
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 1150px;
+}
+
+.profiles{
+    margin-left: -20px;
+}
+
+.trusted h1{
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: 950px;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.leaders h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #303030;
+    margin-top: 1000px;
+    position: absolute;
+    width: 700px;
+    margin-left: 400px;
+}
+
+
+

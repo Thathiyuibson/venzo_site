@@ -1,3 +1,10 @@
+.body,html{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -111,4 +118,5 @@
     margin-top: -90px;
     margin-left: 606px;
     z-index: 0;
+    width: 100%;
   }

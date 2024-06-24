@@ -1,0 +1,266 @@
+.body,html{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.team-expertise{
+    background-color: white;
+    height: 170vh;
+    width: 100%;
+}
+
+.sub-team{
+    width: 1220px;
+    height: 1130.19px;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+
+.title-team h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55.2px;
+    color: #303030;
+    text-align: center;
+}
+
+.title-team h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #414141;
+    width: 785.03px;
+    height: 81px;
+    margin-left: 200px;
+}
+
+.colorcard-holder{
+    width: 1220px;
+    height: 885.98px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.color-card1{
+    width: 387px;
+    height: 432px;
+    background-color: #FDF3EA;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.divi-1{
+    width: 387px;
+    height: 13px;
+    background-color: #F7D0AD;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.tc-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-cardpara h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-cardpara h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}
+
+.color-card2{
+    width: 387px;
+    height: 432px;
+    background-color: #E0F8F2;
+    border-radius: 12px 12px 0px 0px;
+    margin-left: 30px;
+}
+
+.divi-2{
+    width: 387px;
+    height: 13px;
+    background-color: #8BDCC8;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.pq-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-card2para h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-card2para h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}
+
+.color-card3{
+    width: 387px;
+    height: 432px;
+    background-color: #EEECFF;
+    border-radius: 12px 12px 0px 0px;
+    margin-left: 30px;
+}
+
+.divi-3{
+    width: 387px;
+    height: 13px;
+    background-color: #C3BDFD;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.tp-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-card3para h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-card3para h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}
+
+.color-card4{
+    width: 387px;
+    height: 432px;
+    background-color: #D9F2F7;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: 453px;
+    margin-left: -1220px;
+}
+
+.divi-4{
+    width: 387px;
+    height: 13px;
+    background-color: #8ED9E8;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.ct-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-card4para h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-card4para h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}
+
+.color-card5{
+    width: 387px;
+    height: 432px;
+    background-color: #FAEDED;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: 453px;
+    margin-left: 30px;
+}
+
+.divi-5{
+    width: 387px;
+    height: 13px;
+    background-color: #FFC7C7;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.rm-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-card5para h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-card5para h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}
+
+.color-card6{
+    width: 387px;
+    height: 432px;
+    background-color: #F1F1F1;
+    border-radius: 12px 12px 0px 0px;
+    margin-top: 453px;
+    margin-left: 30px;
+}
+
+.divi-6{
+    width: 387px;
+    height: 13px;
+    background-color: #D6D5D5;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.bv-img img{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.color-card6para h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26.44px;
+    text-align: center;
+    color: #2E2F35;
+}
+.color-card6para h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.33px;
+    text-align: center;
+    color: #58595D;
+}

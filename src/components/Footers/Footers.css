@@ -1,0 +1,128 @@
+.body,html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footers{
+   width: 1523.5px;
+    height: 532.33px;
+    background-color: #020019;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+
+.horizontal-linee1, .horizontal-linee2, .horizontal-linee3 {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255,255,255,1);
+    opacity: 40%;
+    margin: 10px 0;
+    position: absolute;
+    margin-left: 40px;
+  }
+
+  .horizontal-linee1{
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  
+  .horizontal-linee2 {
+    height: 1px;
+    margin-top: 220px;
+  }
+  
+  .horizontal-linee3 {
+    height: 1px;
+    margin-top: 400px;
+  }
+
+  .qlinks-title h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.36px;
+    color: #FFFFFF;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  .forward{
+    margin-left: 80px;
+  }
+
+  .qlinks-opt{
+    display: flex;
+    margin-left: 500px;
+  }
+
+  .qlinks-opt h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 125px;
+    margin-right: 70px;
+    cursor: pointer;
+  }
+
+  .connect-title h1{
+    font-family: Arvo;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.36px;
+    color: #FFFFFF;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  .arroww{
+    margin-left: 20px;
+  }
+  .connect-opt{
+    display: flex;
+    margin-left: 500px;
+  }
+
+  .connect-opt h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 125px;
+    margin-right: 70px;
+    cursor: pointer;
+  }
+
+  .venzoo img{
+    margin-left: 50px;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+
+  .venzoo h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 50%;
+    width: 500px;
+    margin-left: 200px;
+    margin-top:-70px;
+  }
+
+  .score{
+    margin-top: -160px;
+    position: absolute;
+    margin-left: 1095px;
+  }

@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px; /* Adjust height as needed */
-    background-color: rgba(229, 246, 255,1); /* Background color for the container */
+    height: 300px;
+    background-color: rgba(229, 246, 255,1);
     position: relative;
     margin-top: -860px;
     height: 700px;
-    width: 1524px;
-    margin-left: -13px;
+    width: 1518px;
     box-sizing: border-box;
+    margin-left: -13px;
+    margin-right: 0px;
   }
   
   .hover-space {

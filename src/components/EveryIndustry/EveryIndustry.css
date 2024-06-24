@@ -1,8 +1,15 @@
+.body,html{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .EveryIndustry{
     background-color: #02001D ;
     margin-top: 170px;
     height: 130vh;
-    width: 1530px;
+    width: 103.4%;
     box-sizing: border-box;
     margin-left: -20px;
     display: flex;
@@ -119,12 +126,12 @@
 .ltr{
     position: absolute;
     top: 14%;
-    z-index: 0; /* Ensure these are behind the text */
+    z-index: 0;
   }
 .rtl{
     position: absolute;
     top: 22%;
-    z-index: 0; /* Ensure these are behind the text */
+    z-index: 0;
   }
 
 .ltr {
@@ -137,26 +144,26 @@
 
 @keyframes moveLTR {
     0% {
-      left: -100px; /* Start position off the screen */
+      left: -100px;
     }
     100% {
-      left: 100%; /* End position off the other side */
+      left: 100%;
     }
   }
   
   @keyframes moveRTL {
     0% {
-      right: -400px; /* Start position off the screen */
+      right: -400px;
     }
     100% {
-      right: 100%; /* End position off the other side */
+      right: 100%;
     }
   }
 
   .dotted-line {
     width: 100%;
-    border-top: 2px dashed #9F9F9F; /* Dotted border */
-    margin-top: 900px; /* Space from the previous element */
+    border-top: 2px dashed #9F9F9F;
+    margin-top: 900px; 
     margin-left: -1380px;
     margin-right: 140px;
   }

@@ -1,0 +1,91 @@
+.body,html{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.saama{
+    width: 101.8%;
+    height: 460px;
+    background-color: #F4F2EA;
+    box-sizing: border-box;
+    margin-left: -19px;
+    position: relative;
+    display: flex;
+}
+
+.saama-left{
+    position: absolute;
+    width: 677.33px;
+    height: 208px;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.saama-title h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2C88;
+    margin-left: 170px;
+    margin-top: -160px;
+}
+
+.black{
+    color: black;
+    font-weight: 400;
+    font-family: Arvo;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: center;
+}
+
+.saama-para p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #484848;
+    margin-left: 170px;
+}
+
+.verticall-line{
+    width: 1px;
+  background-color: #999999;
+  height: 60%;
+  position: absolute;
+  margin: 0 850px;
+  margin-top: 80px;
+}
+
+.double-quotes{
+    margin-left: -70px;
+}
+
+.double-quotes h1{
+    font-family: Arvo;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+    margin-left: 1000px;
+    margin-top: 110px;
+    position: absolute;
+}
+
+.proactive{
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #484848;
+    position: absolute;
+    width: 400px;
+}
+
+.william img{
+    margin-left: 920px;
+    margin-top: 270px;
+}

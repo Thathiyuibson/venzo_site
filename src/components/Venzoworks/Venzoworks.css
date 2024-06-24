@@ -13,7 +13,8 @@
     position: relative;
     background-color: rgba(229, 246, 255,1);
     overflow: hidden;
-    width: 1521px;
+    /* width: 1421px; */
+    width: 1515px;
     margin-left: -10px;
     margin-top: -120px;
   }
